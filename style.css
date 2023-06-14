@@ -1,0 +1,148 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caladea&family=Poppins&family=Roboto+Condensed&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Caladea', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+color: white
+}
+
+header {
+    background: linear-gradient(black, rgb(3, 3, 48) );
+}
+header nav  {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding:30px 5% 0 5%;
+
+}
+header nav .navright  {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+header nav .navright p {
+    margin: 0 15px 0 0;
+    font-size: 18px;
+}
+header nav .navright button {
+    text-align: center;
+    font-size: 16px;
+   padding: 5px 15px;
+   color: blue;
+   background: linear-gradient(black, rgb(3, 3, 48) );
+   border: none;
+   border-radius: 5px;
+   transition: color 0.5s, background 0.5s; 
+}
+header nav .navright button:hover {
+
+    background: rgba(11, 11, 161, 0.904);
+    color: white;
+
+}
+    .presentation {
+        padding: 30px 5%;
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .presentation .presentationbottle {
+        width: 100%;
+        flex-shrink: 3;
+
+    }
+    .presentation .presentationbottle h1 {
+        margin: 0;
+        font-size: 4vw;
+        width:80% ;
+    }
+    .presentation .presentationbottle p {
+        color: #e9e9e9b2;
+        margin-top: 5px;
+    }
+    .presentation .presentationbottle button {
+        margin-top: 20px;
+        padding: 15px 20px;
+     
+        font-size: 16px;
+        background: blue;
+        color: white;
+        border:none;
+        border-radius: 10px;
+        transition: background 0.5s; 
+
+        
+
+    }
+    .presentation .presentationbottle button:hover {
+        background: linear-gradient(black, rgb(3, 3, 48) );
+    }
+    .first .presentationbottle .image img {
+        width: 100%;
+    }
+    .first .presentationbottle .smallimages {
+        margin-top: 30px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       
+    }
+    .first .presentationbottle .smallimages .small {
+        padding: 20px;
+        background: linear-gradient(rgba(2, 1, 17, 0.911), rgb(3, 3, 48) );
+        margin: 0 20px 20px 0; 
+        border-radius: 20px; 
+        /* haut   droite  bas gauche */
+    }
+
+    .first .presentationbottle .smallimages .small:hover {   /* transition qui change la luminosité de nos images lorqu'on pointe notre souris dessus*/
+        filter: brightness(70%);
+
+    }
+    
+    .first .presentationbottle .smallimages .small img {
+        width: 140px;
+    }
+    .second {
+        margin: 0;
+        background: linear-gradient(rgba(107, 1, 1, 0.911), rgb(3, 3, 48) );
+    }
+    .second .presentationbottle button {
+        background: linear-gradient(rgba(107, 1, 1, 0.911), rgb(3, 3, 48) );
+    }
+    .second .presentationbottle button:hover {
+        background: linear-gradient(rgba(107, 1, 1, 0.911), rgba(214, 124, 124, 0.966) );
+    }
+    footer {
+        background: linear-gradient(black, rgb(3, 3, 48) );
+        margin: 0;
+        padding: 40px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+
+    footer .colonne {
+        
+    }
+    h3 {
+        color: blue;
+        padding-bottom: 10px;
+    }
+     /*gtgtgt*/
